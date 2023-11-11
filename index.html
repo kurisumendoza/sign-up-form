@@ -14,7 +14,7 @@
   <div class="container">
     <div class="image-section">
       <div class="logo">
-        <img src="images/white-cat.png" alt="">
+        <img src="images/logo.png" alt="">
         <p>Cat Club</p>
       </div>
       <div class="credits">
@@ -26,7 +26,7 @@
     
     <div class="form-section">
       <div class="intro">
-        <p>This is not an online service! You know you need something like this in your life to help you realize your deepest dreams. <br> Sign up <em>now</em> to get started.</p>
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br> Sign up <em>now</em> to get started.</p>
         <p>You <em>know</em> you want to.</p>
       </div>
     
@@ -35,28 +35,52 @@
           <legend>Let's do this!</legend>
           <div>
             <label for="first-name">FIRST NAME</label><br>
-            <input type="text" name="first-name" id="first-name">
+            <input
+              type="text" 
+              name="first-name" 
+              id="first-name"
+              placeholder="Garfield">
           </div>
           <div>
             <label for="last-name">LAST NAME</label><br>
-            <input type="text" name="last-name" id="last-name">
+            <input
+              type="text" 
+              name="last-name" 
+              id="last-name"
+              placeholder="Arbuckle">
           </div>
           <div>
             <label for="email">EMAIL</label><br>
-            <input type="email" name="email" id="email">
+            <input 
+              type="email" 
+              name="email" 
+              id="email"
+              placeholder="garfield@catmail.com">
           </div>
           <div>
             <label for="phone-number">PHONE NUMBER</label><br>
-            <input type="tel" name="phone-number" id="phone-number">
+            <input 
+              type="tel" 
+              name="phone-number" 
+              id="phone-number" 
+              pattern="[\d]{11}"
+              placeholder="01234567890">
           </div>
           <div>
             <label for="password">PASSWORD</label><br>
-            <input type="text" name="password" id="password"><br>
+            <input 
+              type="password" 
+              name="password" 
+              id="password" 
+              class="error"><br>
             <p>*Passwords do not match</p>
           </div>
           <div>
             <label for="confirm-password">CONFIRM PASSWORD</label><br>
-            <input type="text" name="confirm-password" id="confirm-password">
+            <input 
+              type="password" 
+              name="confirm-password" 
+              id="confirm-password">
           </div>
         </div>
         <div class="submit-form">
