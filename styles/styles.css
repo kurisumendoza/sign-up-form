@@ -93,7 +93,12 @@ legend {
 
 .input-section > div > p {
   font-size: 0.6rem;
-  color: red;
+  color: #ba1c0a;
+}
+
+.no-error {
+  margin-top: 6.8px;
+  height: 0.6rem;
 }
 
 legend {
@@ -122,10 +127,6 @@ input:focus {
 
 input::placeholder {
   color: #b3b3b3;
-}
-
-input:invalid {
-  outline: 1.5px solid red;
 }
 
 .submit-form {
@@ -217,6 +218,11 @@ form p {
     width: 100%;
   }
 
+  .no-error {
+    height: auto;
+    margin-top: auto;
+  }
+
   .submit-form {
     padding: 0 4em 3em 4em;
   }
@@ -224,4 +230,8 @@ form p {
   button {
     width: 100%;
   }
+}
+
+.invalid {
+  outline: 1.5px solid #ba1c0a;
 }
